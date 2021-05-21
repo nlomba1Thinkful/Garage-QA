@@ -4,17 +4,15 @@ import com.qa.main.garage.Garage;
 
 public abstract class Vehicle extends Garage implements Mobility {
 
-	// ***********//
 	// ATTRIBUTES //
-	// ***********//
+
 	private String vehicleType;
 	private String classType;
 	private int tireCount;
 	private int doorCount;
 
-	// ************//
 	// CONSTRUCTOR //
-	// ************//
+
 	public Vehicle() {
 		super();
 		this.vehicleType = "??? - generic";
@@ -35,11 +33,9 @@ public abstract class Vehicle extends Garage implements Mobility {
 
 	public abstract void driving();
 
-	// ********//
 	// METHODS //
-	// ********//
 
-	// Read only - these wont change
+	// Read only
 	public String getVehicleType() {
 		return vehicleType;
 	}

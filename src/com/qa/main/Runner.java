@@ -37,7 +37,7 @@ public class Runner {
 	// Methods
 	// accessor, static/non, return type, nameof, parameterlist, scope
 
-// class
-// attributes(class members)
-// methods (class members)
+	// class
+	// attributes(class members)
+	// methods (class members)
 }

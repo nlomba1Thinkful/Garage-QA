@@ -7,17 +7,15 @@ import com.qa.main.garage.vehicle.Vehicle;
 
 public class Garage {
 
-	// ***********//
 	// ATTRIBUTES //
-	// ***********//
+
 	private String garageName;
 
-	// ************//
 	// CONSTRUCTOR //
-	// ************//
+
 	public Garage() {
 		super();
-		this.garageName = "Sarah's Garage";
+		this.garageName = "Nick's Garage";
 
 	}
 
@@ -26,16 +24,14 @@ public class Garage {
 
 	}
 
-	// ********//
 	// METHODS //
-	// ********//
 
 	// Create new list to store vehicles in
-	List<Object> sarahsGarage = new ArrayList<Object>();
+	List<Object> vehicleGarage = new ArrayList<Object>();
 
 	public void addVehicle(Object vehicle) {
-		// add vehicle by id ??
-		sarahsGarage.add(0, vehicle);
+		// add vehicle by id
+		vehicleGarage.add(0, vehicle);
 	}
 
 	public void deleteVehicle(Vehicle vehicle) {
@@ -44,8 +40,8 @@ public class Garage {
 
 	public void whosAtSarahsGarage() {
 
-		for (int i = 0; i < sarahsGarage.size(); i++) {
-			System.out.println(sarahsGarage.get(i).toString());
+		for (int i = 0; i < vehicleGarage.size(); i++) {
+			System.out.println(vehicleGarage.get(i).toString());
 		}
 
 	}
