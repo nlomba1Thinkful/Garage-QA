@@ -6,9 +6,8 @@ import com.qa.main.garage.vehicle.Vehicle;
 
 public class Motorcycle extends Vehicle {
 
-	// ************//
 	// CONSTRUCTOR //
-	// ************//
+
 	public Motorcycle(String vehicleType, String classType, int tireCount, int doorCount) {
 		super(vehicleType, classType, tireCount, doorCount); // object class
 

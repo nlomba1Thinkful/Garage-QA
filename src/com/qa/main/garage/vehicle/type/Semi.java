@@ -4,9 +4,9 @@ import com.qa.main.garage.vehicle.Vehicle;
 
 public class Semi extends Vehicle {
 
-	// ************//
+	
 	// CONSTRUCTOR //
-	// ************//
+	
 	public Semi(String vehicleType, String classType, int tireCount, int doorCount) {
 		super(vehicleType, classType, tireCount, doorCount); // object class
 
